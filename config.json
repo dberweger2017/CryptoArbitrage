@@ -1,0 +1,4 @@
+{
+    "exchanges": ["binance", "bybit", "okex", "bitget", "bitmart", "bitmex", "bybit", "coinex", "gate", "kucoinfutures"],
+    "symbols": ["BTC", "ETH", "BNB", "SOL", "XRP", "TON", "DOGE", "ADA", "TRX", "SHIB", "DOT", "LINK", "BCH", "NEAR", "LTC", "MATIC", "PEPE", "UNI", "ICP", "KAS", "FET", "ETC", "APT", "XLM", "XMR", "MNT", "STX", "MKR", "HBAR", "OKB", "RNDR", "FIL", "CRO", "ARB", "VET", "WIF", "ATOM", "INJ", "TAO", "IMX", "SUI", "OP", "FDUSD", "AR", "GRT", "BONK", "FLOKI", "LDO", "NOT", "BGB", "RUNE", "THETA", "ONDO", "AAVE", "HNT"]
+}
