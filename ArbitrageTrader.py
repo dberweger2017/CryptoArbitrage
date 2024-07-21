@@ -290,3 +290,10 @@ if __name__ == "__main__":
             asyncio.run(main(simulator))
         except Exception as e:
             send_telegram_message(f"Error: {str(e)}")
+        finally:
+            # Ensure all pending tasks are completed and resources are released
+            tasks = asyncio.all_tasks()
+            for task in tasks:
+                task.cancel()
+            asyncio.get_event_loop().run_until_complete(asyncio.gather(*tasks, return_exceptions=True))
+            asyncio.get_event_loop().close()
